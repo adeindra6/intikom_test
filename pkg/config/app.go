@@ -15,7 +15,7 @@ var (
 )
 
 func Connect() {
-	err := godotenv.Load("../../.env")
+	err := godotenv.Load(".env")
 
 	if err != nil {
 		log.Fatalf("Can't load .env file")
